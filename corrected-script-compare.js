@@ -83,7 +83,7 @@ var remunerationEGS = cainto100EGS * caPourcentEGS;
 document.getElementById("mySocieteEGS").innerHTML = caPourcentEGS + "%";
 document.getElementById("myRemTotaleEGS").innerHTML = formatter1.format(remunerationEGS);
 document.getElementbyId("myTjmEGS").innerHTML = formatter2.format(tjmEGS);
-document.getElementById("caTotalEFGS").innerHTML = formatter2.format(caEGS);
+document.getElementById("caTotalEGS").innerHTML = formatter2.format(caEGS);
 document.getElementById("myFraisEGS").innerHTML = formatter2.format(fraisEGS);
 
 
